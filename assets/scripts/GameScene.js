@@ -50,7 +50,7 @@ class GameScene extends Phaser.Scene {
 			timeout: this.sound.add('timeout')
 		}
 
-		// this.sounds.theme.play({ volume: 0.01 })
+		this.sounds.theme.play({ volume: 0.01 })
 	}
 	create() {
 		this.timeout = config.timeout
